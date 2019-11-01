@@ -27,7 +27,7 @@ function Images(props) {
         {phts.map(e => (
             <Link key={"e" + e.id} to={"/pic/" + e.id}>
                 <div>
-                    <img src={e.img} alt=''/>
+                    <img className="thumb" src={e.img} alt=''/>
                 </div>
             </Link>
             ))}
