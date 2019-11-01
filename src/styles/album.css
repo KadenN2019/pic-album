@@ -1,0 +1,10 @@
+.thumb{
+    height: 500px;
+    width: 400px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

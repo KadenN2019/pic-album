@@ -1,0 +1,107 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "name": "Pennsylvania Photos",
+      "thumbnail":"/static/Penn/DSC05791-Edit.jpg"
+    },
+    {
+      "id":2,
+      "name": "Train Photos",
+      "thumbnail": "/static/Train /DSC06128.jpg"
+
+    },
+    {
+      "id":3,
+      "name": "Sand Dunes",
+      "thumbnail": "/static/sanddunes/DSC09593.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cars Photos",
+      "thumbnail": "/static/cars/DSC05603-copy.jpg"
+    }
+  ],
+  "photos": [
+    {
+      "id":1,
+      "albumId": 1,
+      "img": "/static/Penn/DSC05791-Edit.jpg"
+    },
+    {
+      "id":2,
+      "albumId": 1,
+      "img": "/static/Penn/DSC05760.jpg"
+    },
+    {
+      "id":3,
+      "albumId": 1,
+      "img": "/static/Penn/DSC05813.jpg"
+    },
+    {
+      "id":4,
+      "albumId": 1,
+      "img": "/static/Penn/DSC05979.jpg"
+    },
+    {
+      "id":5,
+      "albumId": 2,
+      "img": "/static/Train/DSC06128.jpg"
+    },
+    {
+      "id":6,
+      "albumId": 2,
+      "img": "/static/Train/DSC06253.jpg"
+    },
+    {
+      "id":7,
+      "albumId": 2,
+      "img": "/static/Train/DSC06105.jpg"
+    },
+    {
+      "id":8,
+      "albumId": 2,
+      "img": "/static/Train/DSC06061.jpg"
+    },
+    {
+      "id":9,
+      "albumId": 3,
+      "img": "/static/sanddunes/DSC09766.jpg"
+    },
+    {
+      "id":10,
+      "albumId": 3,
+      "img": "/static/sanddunes/DSC09593.jpg"
+    },
+    {
+      "id":11,
+      "albumId": 3,
+      "img": "/static/sanddunes/DSC01861.jpg"
+    },
+    {
+      "id":12,
+      "albumId": 3,
+      "img": "/static/sanddunes/DSC01851.jpg"
+    },
+    {
+      "id":13,
+      "albumId": 4,
+      "img": "/static/sanddunes/DSC05603.jpg"
+    },
+    {
+      "id":14,
+      "albumId": 4,
+      "img": "/static/sanddunes/DSC05093.jpg"
+    },
+    {
+      "id":15,
+      "albumId": 4,
+      "img": "/static/sanddunes/DSC04818.jpg"
+    },
+    {
+      "id":14,
+      "albumId": 4,
+      "img": "/static/sanddunes/DSC05093.jpg"
+    }
+  ]
+}
