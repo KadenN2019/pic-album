@@ -18,8 +18,18 @@
     },
     {
       "id": 4,
-      "name": "Cars Photos",
+      "name": "Car Rollers",
       "thumbnail": "/static/cars/DSC05603-copy.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Still Cars",
+      "thumbnail":"/static/StillCars/DSC03479.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Portraits",
+      "thumbnail":"/static/Portaits/DSC00648.jpg"
     }
   ],
   "photos": [
@@ -46,22 +56,22 @@
     {
       "id":5,
       "albumId": 2,
-      "img": "/static/Train/DSC06128.jpg"
+      "img": "/static/Train /DSC06128.jpg"
     },
     {
       "id":6,
       "albumId": 2,
-      "img": "/static/Train/DSC06253.jpg"
+      "img": "/static/Train /DSC06253.jpg"
     },
     {
       "id":7,
       "albumId": 2,
-      "img": "/static/Train/DSC06105.jpg"
+      "img": "/static/Train /DSC06105.jpg"
     },
     {
       "id":8,
       "albumId": 2,
-      "img": "/static/Train/DSC06061.jpg"
+      "img": "/static/Train /DSC06061.jpg"
     },
     {
       "id":9,
@@ -86,22 +96,62 @@
     {
       "id":13,
       "albumId": 4,
-      "img": "/static/sanddunes/DSC05603.jpg"
+      "img": "/static/cars/DSC05603-copy.jpg"
     },
     {
       "id":14,
       "albumId": 4,
-      "img": "/static/sanddunes/DSC05093.jpg"
+      "img": "/static/cars/DSC04375.jpg"
     },
     {
       "id":15,
       "albumId": 4,
-      "img": "/static/sanddunes/DSC04818.jpg"
+      "img": "/static/cars/DSC05093.jpg"
     },
     {
       "id":14,
       "albumId": 4,
-      "img": "/static/sanddunes/DSC05093.jpg"
+      "img": "/static/cars/DSC03785.jpg"
+    },
+    {
+      "id":15,
+      "albumId": 5,
+      "img": "/static/StillCars/DSC03479.jpg"
+    },
+    {
+      "id":16,
+      "albumId": 5,
+      "img": "/static/StillCars/DSC04818.jpg"
+    },
+    {
+      "id":17,
+      "albumId": 5,
+      "img": "/static/StillCars/DSC04836.jpg"
+    },
+    {
+      "id":18,
+      "albumId": 5,
+      "img": "/static/StillCars/DSC09179.jpg"
+    },
+    {
+      "id":19,
+      "albumId": 6,
+      "img": "/static/Portaits/DSC00648.jpg"
+    },
+    {
+      "id":20,
+      "albumId": 6,
+      "img": "/static/Portaits/DSC01842.jpg"
+    },
+    {
+      "id":21,
+      "albumId": 6,
+      "img": "/static/Portaits/DSC01853.jpg"
+    },
+    {
+      "id":22,
+      "albumId": 6,
+      "img": "/static/Portaits/DSC01872.jpg"
     }
   ]
 }

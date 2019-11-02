@@ -14,17 +14,15 @@ function Albums(props) {
 
   return (
     <div className="box">
-      <div>Albums</div>
+      <div className="text">Albums</div>
         <div  className="pictures">
       {albs.map(alb =>(
-        <div>
             <Link key={"alb" + alb.id} to={"/albums/" + alb.id}>
-                <div>
-                    <div className="title">{alb.name}</div>
+                <div className="pic">
+                    <div className="title1">{alb.name}</div>
                     <img className="thumb" src={alb.thumbnail}/>
                 </div>
             </Link>
-        </div>
       ))}
       </div>
     </div>

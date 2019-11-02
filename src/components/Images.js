@@ -6,27 +6,45 @@ import '../styles/album.css'
 
 function Images(props) {
   const [phts, setphts] = useState([])
-  const [albumName, setAlbumName] = useState({})
+  const [albumName, setAlbumName] = useState("")
 
+  const [albs, setAlbs] = useState([])
 
+  useEffect(() =>{
+      axios.get("http://localhost:3000/albums/").then(resp => {
+        setAlbs(resp.data)
+      })
+  }, [])
 
   useEffect(() => {
+      console.log(props)
     const id = props.match.params.id
     axios.get(`/albums/${id}?_embed=photos`).then(resp =>{
-        setAlbumName(resp.data)
+        setAlbumName(resp.data.name)
         setphts(resp.data.photos)
     })
- }, [])
+ }, [props.match.params.id])
+
 
   return (
     <div className="box">
-        <p>
-          Albumsskadhkahsd
-        </p>
-        <div>
+        
+        <div className="titles">
+            {albs.map(alb =>(
+                <Link key={"alb" + alb.id} to={"/albums/" + alb.id}>
+                    <div>
+                        <div className="text-title">{alb.name}</div>
+                    </div>
+                </Link>
+            ))}
+        </div>
+        <div className="title">{albumName}</div>
+      
+        <div  className="pictures">
         {phts.map(e => (
             <Link key={"e" + e.id} to={"/pic/" + e.id}>
-                <div>
+                <div className="pic">
+                    <div className="title">{e.name}</div>
                     <img className="thumb" src={e.img} alt=''/>
                 </div>
             </Link>
