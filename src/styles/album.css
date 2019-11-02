@@ -66,4 +66,5 @@ button{
     position: absolute;
     top: 2px;
     left: 425px;
+    outline: none;
 }
